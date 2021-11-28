@@ -20,4 +20,5 @@ HOW TO RUN THE SERVER:
 
 FURTHER IMPROVEMENTS:
 
+Further improvements can be made to the code by declaring a function for translation of text from available languages henceforth the variables can be eliminated.
 
