@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/homePage.css">
+    <title>Retranslated Language</title>
+</head>
+
+<body>
+    <div class="page-body">
+        <h2>Translated Text</h2>
+
+
+        <form action="/translate/<%= id %>?_method=PATCH" method="post">
+            <textarea name="translated-text" cols="30" rows="10"> <%= translang.langTranslate %>   </textarea>
+
+            <div class="languages">
+                <label for="languages">Translate To:</label>
+                <select name="language" id="languages">
+                    <option value="ml">Malyalam</option>
+                    <option value="hi">Hindi</option>
+                    <option value="gu">Gujarati</option>
+                    <option value="bn">Bengali</option>
+                    <option value="kn">Kannada</option>
+                    <option value="mr">Marathi</option>
+                    <option value="te">Telugu</option>
+                    <option value="ta">Tamil</option>
+                    <option value="en">English</option>
+                </select>
+            </div>
+
+            <button type="submit" class="translate-btn">Retranslate</button>
+        </form>
+    </div>
+</body>
+
+</html>
