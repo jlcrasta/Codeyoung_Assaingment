@@ -14,7 +14,8 @@ HOW TO RUN THE SERVER:
 1. Copy or download all the files from github and store them in a folder of your choice
 2. Make sure you have Nodejs(v14.16.0.) and npm installed, then open the file in vscode or other code editor.
 3. Open command terminal and type 'npm install' this will install all the dependencies.
-4. Once installed run 'supervisor server.js' or 'node server.js' command.
+4. create a .env file and add the secret key which is been mailed to use cloud database
+5. Once all packages are installed run 'supervisor server.js' or 'node server.js' command.
 5. The server will be started at port 5500.
 
 
