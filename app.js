@@ -7,6 +7,8 @@ const OriLang = require('./Schema/translation')
 const TransLang = require('./Schema/language')
 const methodover = require('method-override')
 
+//apis required rather than rendering pages
+
 
 app.set('view engine', ejs)
 app.set('views', path.join(__dirname, '/views'))
